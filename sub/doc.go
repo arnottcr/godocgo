@@ -53,7 +53,7 @@
 // examples will always compile.  In addition, if the example outputs to stdout,
 // you can actually test the output, and have a failing test if the output
 // doesn't match. To do this, simply put a comment at the end of the function,
-// with the first line as "output:". Further lines will be stripped of their
+// with the first line as "Output:". Further lines will be stripped of their
 // comment prefix, trimmed of whitespace, and matched against the example's
 // output (line breaks in the comments match "\n" from the output of the
 // example code).
@@ -63,7 +63,8 @@
 //	func ExampleFood() {
 //		f := sub.NewFood("apple")
 //		fmt.Println(f.Weight())
-//		// output:
+//
+//		// Output:
 //		// 5
 //	}
 //

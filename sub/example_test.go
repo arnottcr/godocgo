@@ -11,7 +11,8 @@ import (
 // elsewhere, docs on examples are plaintext only, so be brief.
 func Example() {
 	hello()
-	// output:
+
+	// Output:
 	// Hello example!
 }
 

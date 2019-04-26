@@ -11,7 +11,8 @@ import (
 func ExampleFood() {
 	f := NewFood("apple")
 	fmt.Println(f.Weight())
-	// output:
+
+	// Output:
 	// 5
 }
 
@@ -19,7 +20,8 @@ func ExampleFood() {
 func ExampleNewFood() {
 	f := NewFood("pear")
 	fmt.Println(f.Name)
-	// output:
+
+	// Output:
 	// pear
 }
 
@@ -28,7 +30,8 @@ func ExampleNewFood() {
 func ExampleNewFood_aux() {
 	f := NewFood("prickly pear")
 	fmt.Println(f.Name)
-	// output:
+
+	// Output:
 	// prickly pear
 }
 
@@ -39,6 +42,7 @@ func ExampleNewFood_aux() {
 func ExampleFood_Weight() {
 	f := NewFood("pineapple")
 	fmt.Println(f.Weight())
-	// output:
+
+	// Output:
 	// 10
 }
